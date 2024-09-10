@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: montserrat;
+}
+
+.img-container {
+  cursor: pointer;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
+  margin-bottom: 50px;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(186, 48, 48);
+}
+
+p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
+}
+
+.btn {
+  height: 37px;
+  width: 37px;
+  background-color: rgba(0, 255, 255, 0);
+  position: absolute;
+  cursor: pointer;
+}
+
+.btn-1 {
+  left: 72.7%;
+  top: 25%;
+}
+
+.btn-3 {
+  left: 70%;
+  top: 60%;
+}
+
+.btn-2 {
+  left: 2.5%;
+  top: 61.5%;
+}
+
+.testo-prova {
+  background-color: rgb(186, 48, 48);
+  padding: 30px 50px;
+  max-width: 1030px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .btn {
+    height: 28px;
+    width: 28px;
+  }
+}
+
+@media (max-width: 600px) {
+  .btn {
+    height: 20px;
+    width: 20px;
+  }
+}
