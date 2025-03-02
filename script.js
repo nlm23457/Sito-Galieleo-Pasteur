@@ -34,7 +34,7 @@ btn2.addEventListener("click", () => addLetter("b"));
 btn3.addEventListener("click", () => {
   key += "c";
 
-  if (key === "rabc") {
+  if (key === "rabc" || key === "racb" || key === "rbac" || key === "rbca") {
     alert("Corretto, leggi sotto l'URL");
     solution.style.backgroundColor = "green";
     solution.textContent = "https://afmbasi.wixsite.com/lunalunae/5";
