@@ -44,7 +44,11 @@ btn3.addEventListener("click", () => {
   ) {
     alert("Corretto, segui il link che trovi qui sotto (scorri la pagina)!");
     solution.style.backgroundColor = "green";
-    solution.textContent = "https://afmbasi.wixsite.com/lunalunae/5";
+    // solution.textContent = "https://afmbasi.wixsite.com/lunalunae/5";
+    solution.insertAdjacentHTML(
+      "afterbegin",
+      '<a style="color:white" href="https://afmbasi.wixsite.com/lunalunae/5">Clicca qui!</a>'
+    );
   } else if (key.length >= 4) {
     alert("Sbagliato, tutto resettato");
     key = "r";
